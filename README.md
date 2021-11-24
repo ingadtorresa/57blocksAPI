@@ -1,20 +1,22 @@
 # 57blocksAPI
 
-Este es un proyecto para un prueba de Desarrollador .NET realizado por Andres Torres
+Este es un proyecto para una prueba de Desarrollador .NET realizado por Andres Torres
 
 ## Comenzamos 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
 
-### Pre-requisitos 📋
+### Pasos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
-
+1. Descargar la solución.
+2. En la solución ir al proyecto de base de datos "57blocks.Database"
+3. Publicar la base de datos ahí creara las 2 tablas correspondientes al ejercicio.
+4. En el proyecto "57blocks.Database" buscar el script "Deploy.sql" realizar la Insert correspondientes a la tabla Pokemon.
+5. Ejecutar el proyecto “57blocks.API”
+6. Las APIS están documentadas en swagger para revisar la documentación y realizar pruebas de consumo agregar a la Url base /swagger 
 ```
-Da un ejemplo
+localhost:44343/swagger
 ```
 
 ### Instalación 🔧
