@@ -13,53 +13,38 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 2. En la solución ir al proyecto de base de datos "57blocks.Database"
 3. Publicar la base de datos ahí creara las 2 tablas correspondientes al ejercicio.
 4. En el proyecto "57blocks.Database" buscar el script "Deploy.sql" realizar la Insert correspondientes a la tabla Pokemon.
-5. Ejecutar el proyecto “57blocks.API”
+5. Ejecutar el proyecto "57blocks.API"
 6. Las APIS están documentadas en swagger para revisar la documentación y realizar pruebas de consumo agregar a la Url base /swagger 
 ```
 localhost:44343/swagger
 ```
 
-### Instalación 🔧
+### Servicio de Registro ☺
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+Es el controlador de "UserLoginController". 
 
-_Dí cómo será ese paso_
+- Para poder hacer uso se debe insertar primero el usuario que debe tener un correo y una contraseña se consume el API "InsertLogin" punto 1 del ejercicio
+- Para el punto 2 del ejercicio se hace uso de las API "login" y "GenerateToken" no se realiza nuevamente las validaciones porque el correo y la contraseña fue validado en el ejercicio 1 y para consumir estas apis debe ser con el correo y contraseña ya creados.
+-  Para consumir Login se debe enviar correo, password y token. Este token es generado en "GenerateToken" que tiene una vigencia de 20 minutos.
 
-```
-Da un ejemplo
-```
 
-_Y repite_
+### Servicio de Pokemon 🐴
 
-```
-hasta finalizar
-```
+Es el controlador de "PokemonController". 
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+- Se consume todos los metodos CRUD correspondientes.
+- Ademas de los parametros del pokemon es necesario el "Email" para identificar los usuarios, este email fue el creado en el punto 1 en el API "InsertLogin"
 
-## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+## Ejecutando las APIS ⚙️
 
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
+Para hacer el consumo de las APIS puede usar una aplicacion cliente o hacer uso de la interfaz de swagger donde estan documentadas las APIS
 
 ```
-Da un ejemplo
+localhost:44343/swagger
 ```
 
-### Y las pruebas de estilo de codificación ⌨️
 
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
@@ -83,14 +68,15 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+Los Autores del proyecto son:
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **Andrés Torres Acevedo** - *Creador* - [villanuevand](https://github.com/villanuevand)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
+
+
 
 Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
