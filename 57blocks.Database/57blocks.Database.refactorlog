@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="eea44832-fb19-48d6-85b6-d611ff22c30e" ChangeDateTime="11/22/2021 13:49:48">
+    <Property Name="ElementName" Value="[dbo].[UserLogin].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserLogin]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Userlogin" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e232f7b3-592c-47a6-b387-930e316c2435" ChangeDateTime="11/22/2021 16:03:24">
+    <Property Name="ElementName" Value="[dbo].[UserLogin].[Userlogin]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserLogin]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserloginID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="67b4d2ff-75bc-43b8-bc33-dde3ce160751" ChangeDateTime="11/22/2021 16:03:27">
+    <Property Name="ElementName" Value="[dbo].[UserLogin].[UserloginID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserLogin]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserloginId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7c070e66-bc7b-41fc-9cd0-f4c5ca11ae84" ChangeDateTime="11/23/2021 01:53:40">
+    <Property Name="ElementName" Value="[dbo].[Pokemon].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Pokemon]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PokemonId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="34c26556-386a-4fef-85cf-916d9d743d52" ChangeDateTime="11/23/2021 01:54:43">
+    <Property Name="ElementName" Value="[dbo].[Pokemon].[Tipo]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Pokemon]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Type" />
+  </Operation>
+</Operations>
