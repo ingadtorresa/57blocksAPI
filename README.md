@@ -1,4 +1,4 @@
-# 57blocksAPI
+# 57blocks API 
 
 Este es un proyecto para una prueba de Desarrollador .NET realizado por Andres Torres
 
@@ -45,49 +45,19 @@ localhost:44343/swagger
 ```
 
 
-
-## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
 ## Autores ✒️
 
 Los Autores del proyecto son:
 
-* **Andrés Torres Acevedo** - *Creador* - [villanuevand](https://github.com/villanuevand)
+* **Andrés Torres Acevedo** - *Creador* - [ingadtorresa](https://github.com/ingadtorresa)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
-
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia propia - 2021
 
 ## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+* Agradecimientos a 57blocks por el interes en mi perfil para el cargo de desarrollador 🤓
+* Si por alguna razon no continuo en el proceso me encantaria que me dieras tu retroalimentacion a mi correo (ingadtorresa@gmail.com) tus opiniones son muy importantes para mi en la busqueda de superacion diaria o nos podemos tomar un café ☕ 🤗
 
-
-
----
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
