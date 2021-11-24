@@ -11,10 +11,20 @@ using System.Web.Http;
 
 namespace _57blocks.API.Controllers
 {
+    /// <summary>
+    /// UserLoginController
+    /// </summary>
     public class UserLoginController : ApiController
     {
         protected TaskFactory _taskFactory = new TaskFactory(TaskScheduler.FromCurrentSynchronizationContext());
 
+        /// <summary>
+        /// Inserta un Usuario para su registro
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns>Devuelve un httpCode</returns>
+        /// <response code="200">Ok. Pokemon insertado </response>
+        /// <response code="400">Solicitud erronea, con la decripcion </response>
         [HttpPost]
         public async Task<IHttpActionResult> InsertLogin(InsertLoginModel item)
         {
@@ -60,6 +70,13 @@ namespace _57blocks.API.Controllers
             }
         }
 
+        /// <summary>
+        /// Genera un token nuevo
+        /// </summary>
+        /// <remarks> este token sera utilizado para el API login</remarks>
+        /// <param name="item"></param>
+        /// <response code="200">Ok. Pokemon insertado </response>
+        /// <response code="400">Solicitud erronea, con la decripcion </response>
         [HttpPost]
         public async Task<IHttpActionResult> GenerateToken(InsertLoginModel item)
         {
@@ -82,7 +99,13 @@ namespace _57blocks.API.Controllers
             }
         }
 
-
+        /// <summary>
+        /// Accede el usuario registrado 
+        /// </summary>
+        /// <remarks> Utiliza el token de GenerateToken</remarks>
+        /// <param name="item"></param>
+        /// <response code="200">Ok. Pokemon insertado </response>
+        /// <response code="400">Solicitud erronea, con la decripcion </response>
         [HttpPost]
         public async Task<IHttpActionResult> Login(LoginModel item)
         {

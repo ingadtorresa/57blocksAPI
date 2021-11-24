@@ -11,6 +11,9 @@ using System.Web.Http;
 
 namespace _57blocks.API.Controllers
 {
+    /// <summary>
+    /// PokemonController
+    /// </summary>
     public class PokemonController : ApiController
     {
         protected TaskFactory _taskFactory = new TaskFactory(TaskScheduler.FromCurrentSynchronizationContext());
